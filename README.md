@@ -8,5 +8,4 @@
 - requirements can be install using the text file in repo
 ## Video Demo
 
-https://github.com/user-attachments/assets/8c61161b-1e1d-4d67-9cdb-4e3c9244876a
 
