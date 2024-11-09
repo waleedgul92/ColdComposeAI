@@ -6,3 +6,7 @@
 - Groq cloud api key with with name as "GROQ_API_KEY" in env file to access llama-70b-model
 - a xlsx (excel) file placed in "Data" contaning your info in two columns "Techstack" and "Links" 
 - requirements can be install using the text file in repo
+## Video Demo
+
+https://github.com/user-attachments/assets/8c61161b-1e1d-4d67-9cdb-4e3c9244876a
+
