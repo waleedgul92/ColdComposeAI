@@ -1,19 +1,12 @@
-import chromadb
-from langchain_community.document_loaders import WebBaseLoader
 import pandas as pd
+import chromadb
 import uuid
 
 
-def get_data_from_url(url):
-    loader=WebBaseLoader(url)
-    page_data=loader.load().pop().page_content
-    return page_data
-
-
 class Portfolio:
-    def __init__(self, file_path="Data/portfolio.csv"):
+    def __init__(self, file_path="Data/portfolio.xlsx"):
         self.file_path = file_path
-        self.data = pd.read_csv(file_path)
+        self.data = pd.read_excel(file_path)
         self.chroma_client = chromadb.PersistentClient('vectorstore')
         self.collection = self.chroma_client.get_or_create_collection(name="portfolio")
 
@@ -26,5 +19,3 @@ class Portfolio:
 
     def query_links(self, skills):
         return self.collection.query(query_texts=skills, n_results=2).get('metadatas', [])
-# text=get_data_from_pdf("Data/Waleed_Data_Scientist_Resume.pdf")
-# print(text)
