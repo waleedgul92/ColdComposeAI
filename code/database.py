@@ -24,5 +24,7 @@ class Portfolio:
                                     metadatas={"links": row["Links"]},
                                     ids=[str(uuid.uuid4())])
 
+    def query_links(self, skills):
+        return self.collection.query(query_texts=skills, n_results=2).get('metadatas', [])
 # text=get_data_from_pdf("Data/Waleed_Data_Scientist_Resume.pdf")
 # print(text)
