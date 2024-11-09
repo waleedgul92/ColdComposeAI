@@ -40,8 +40,9 @@ class Chain:
             {job_description}
 
             ### INSTRUCTION:
-            You are Waleed Gul, an AI , Data scientist person and asking for job based on ob opening
+            You are Waleed Gul, an AI , Data scientist person.
             Your experience is writing efficent and concise code for data analysis and machine learning , LLM and solve the problems and taks using data science and AI.
+            The model for AI is chosen according to problem ,data and task.
             Your job is to write a cold email to the client regarding the job mentioned above describing the capability of Waleed Gul 
             in fulfilling their needs.
             Also add the most relevant ones from the following links to showcase Waleed Gul's portfolio: {link_list}
