@@ -5,3 +5,4 @@
 ## What you need
 - Groq cloud api key with with name as "GROQ_API_KEY" in env file
 - a xlsx (excel) file placed in "Data" contaning your info in two columns "Techstack" and "Links" 
+- requirements can be install using the text file in repo
