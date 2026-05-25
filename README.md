@@ -82,4 +82,7 @@ ColdComposeAI/
 └── Data/
     └── portfolio.xlsx
 ```
+## Video
+[ColdComposeAI.webm](https://github.com/user-attachments/assets/0dfed0e5-b55a-4d79-851e-32fb7c436fa1)
+
 
